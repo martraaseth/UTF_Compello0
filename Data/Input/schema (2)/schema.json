@@ -1,0 +1,267 @@
+{
+   "extraction": [
+      {
+         "name": "name",
+         "type": "string",
+         "multi_line": true
+      },
+      {
+         "name": "vendor-addr",
+         "type": "string",
+         "multi_line": true
+      },
+      {
+         "name": "billing-name",
+         "type": "string",
+         "multi_line": true
+      },
+      {
+         "name": "billing-addr",
+         "type": "string",
+         "multi_line": true
+      },
+      {
+         "name": "shipping-addr",
+         "type": "string",
+         "multi_line": true
+      },
+      {
+         "name": "invoice-no",
+         "type": "id-no"
+      },
+      {
+         "name": "po-no",
+         "type": "id-no"
+      },
+      {
+         "name": "vendor-cntry",
+         "type": "string"
+      },
+      {
+         "name": "vendor-currency",
+         "type": "string"
+      },
+      {
+         "name": "iban-no",
+         "type": "id-no"
+      },
+      {
+         "name": "swift-code",
+         "type": "string"
+      },
+      {
+         "name": "bank-name",
+         "type": "string"
+      },
+      {
+         "name": "bank-account-no",
+         "type": "number"
+      },      
+      {
+         "name": "bank-addr",
+         "type": "number"
+      },
+      {
+         "name": "bank-cntry",
+         "type": "number"
+      },
+      {
+         "name": "vendor-vat-no",
+         "type": "id-no"
+      },
+      {
+         "name": "kartong-qnty",
+         "type": "number"
+      },
+      {
+         "name": "piece-qnty",
+         "type": "number"
+      },
+      {
+         "name": "delivery-terms",
+         "type": "string"
+      },
+      {
+         "name": "port-from",
+         "type": "string"
+      },
+      {
+         "name": "net-weight",
+         "type": "number"
+      },
+      {
+         "name": "gross-weight",
+         "type": "number"
+      },
+      {
+         "name": "tariff-code",
+         "type": "id-no"
+      },
+      {
+         "name": "date",
+         "type": "date"
+      },
+      {
+         "name": "tax",
+         "type": "number"
+      },
+      {
+         "name": "total",
+         "type": "number",
+         "multi_line": true
+      },
+      {
+         "name": "payment-terms",
+         "type": "string",
+         "multi_line": true
+      },
+      {
+         "name": "net-amount",
+         "type": "number"
+      },
+      {
+         "name": "due-date",
+         "type": "date"
+      },
+      {
+         "name": "discount",
+         "type": "number"
+      },
+      {
+         "name": "shipping-charges",
+         "type": "number"
+      },
+      {
+         "name": "payment-addr",
+         "type": "string",
+         "multi_line": true
+      },
+      {
+         "name": "item-description",
+         "type": "string",
+         "section": "items"
+      },
+      {
+         "name": "item-quantity",
+         "type": "number",
+         "section": "items",
+         "split_items": true
+      },
+      {
+         "name": "item-price",
+         "type": "number",
+         "section": "items",
+         "split_items": true
+      },
+      {
+         "name": "item-line-amount",
+         "type": "number",
+         "section": "items",
+         "split_items": true
+      },
+      {
+         "name": "item-po-no",
+         "type": "id-no",
+         "section": "items"
+      },
+      {
+         "name": "line-no",
+         "type": "id-no",
+         "section": "items"
+      },
+      {
+         "name": "item-prod-no",
+         "type": "id-no",
+         "section": "items"
+      },
+      {
+         "name": "item-kartong-qnty",
+         "type": "number",
+         "section": "items"
+      },
+      {
+         "name": "billing-vat-no",
+         "type": "id-no"
+      }
+   ],
+   "classification": {
+      "currency": [
+         {
+            "name": "USD",
+            "description": "United States"
+         },
+         {
+            "name": "EUR",
+            "description": "Europe"
+         },
+         {
+            "name": "RON",
+            "description": "Romania"
+         },
+         {
+            "name": "GBP",
+            "description": "UK"
+         },
+         {
+            "name": "INR",
+            "description": "India"
+         },
+         {
+            "name": "CAD",
+            "description": "Canada"
+         },
+         {
+            "name": "AUD",
+            "description": "Australia"
+         },
+         {
+            "name": "MYR",
+            "description": "Malaysia"
+         },
+         {
+            "name": "BRL",
+            "description": "Brazil"
+         },
+         {
+            "name": "JPY",
+            "description": "Japan"
+         },
+         {
+            "name": "SGD",
+            "description": "Singapore"
+         },
+         {
+            "name": "HNL",
+            "description": "Honduras"
+         },
+         {
+            "name": "NIO",
+            "description": "Nicaragua"
+         },
+         {
+            "name": "AED",
+            "description": "United Arab Emirates"
+         },
+         {
+            "name": "HKD",
+            "description": "Hong Kong"
+         },
+         {
+            "name": "CHF",
+            "description": "Switzerland"
+         },
+         {
+            "name": "DZD",
+            "description": "Algeria"
+         },
+         {
+            "name": "SEK",
+            "description": "Sweden"
+         },
+         {
+            "name": "NOK",
+            "description": "Norway"
+         }
+      ]
+   }
+}
